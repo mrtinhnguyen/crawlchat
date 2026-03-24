@@ -1,17 +1,17 @@
 {
   "brand": {
-    "name": "Hội đồng nhân dân Quận An Khánh",
+    "name": "Hội đồng nhân dân Xã An Khánh",
     "slug": "hdnd-ankhanh",
     "domain": "chat.hanoi.vn",
-    "support_email": "support@hanoi.vn"
+    "support_email": "tonyxbase@gmail.com"
   },
   "appearance": {
     "primary_color": "#DC2626",
     "secondary_color": "#EF4444",
     "accent_color": "#FBBF24",
-    "logo_url": "/assets/brand/hdnd-ankhanh/logo.svg",
-    "favicon_url": "/assets/brand/hdnd-ankhanh/favicon.ico",
-    "og_image_url": "/assets/brand/hdnd-ankhanh/og-image.png"
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Emblem_of_Vietnam.svg/250px-Emblem_of_Vietnam.svg.png",
+    "favicon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Emblem_of_Vietnam.svg/250px-Emblem_of_Vietnam.svg.png",
+    "og_image_url": "https://storage-vnportal.vnpt.vn/gov-hni/1/Logo/seoimagehni.png"
   },
   "features": {
     "enable_discord": false,

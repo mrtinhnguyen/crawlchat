@@ -48,7 +48,11 @@ services:
       JWT_SECRET: "hdnd-ankhanh-secure-jwt-secret-change-this-in-production-min-32-chars"
       SOURCE_SYNC_URL: "http://source_sync:3000"
       PGVECTOR_URL: "postgresql://postgres:hdnd_ankhanh@pgvector:5432/crawlchat_hdnd_ankhanh"
-      OPENROUTER_API_KEY: "<OPENROUTER_API_KEY>"
+      # AI/LLM - chọn 1 trong các options sau (uncomment để sử dụng)
+      # OPENROUTER_API_KEY: "<OPENROUTER_API_KEY>"
+      OPENAI_API_KEY: "<OPENAI_API_KEY>"
+      # GEMINI_API_KEY: "<GEMINI_API_KEY>"
+      # ANTHROPIC_API_KEY: "<ANTHROPIC_API_KEY>"
       # optional
       ADMIN_EMAILS: ""
     restart: unless-stopped
