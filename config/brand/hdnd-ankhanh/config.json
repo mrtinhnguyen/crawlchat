@@ -1,0 +1,31 @@
+{
+  "brand": {
+    "name": "Hội đồng nhân dân Quận An Khánh",
+    "slug": "hdnd-ankhanh",
+    "domain": "chat.hanoi.vn",
+    "support_email": "support@hanoi.vn"
+  },
+  "appearance": {
+    "primary_color": "#DC2626",
+    "secondary_color": "#EF4444",
+    "accent_color": "#FBBF24",
+    "logo_url": "/assets/brand/hdnd-ankhanh/logo.svg",
+    "favicon_url": "/assets/brand/hdnd-ankhanh/favicon.ico",
+    "og_image_url": "/assets/brand/hdnd-ankhanh/og-image.png"
+  },
+  "features": {
+    "enable_discord": false,
+    "enable_slack": false,
+    "enable_github": false,
+    "enable_google_oauth": true,
+    "custom_plans": []
+  },
+  "oauth": {
+    "google_enabled": true,
+    "github_enabled": false
+  },
+  "localization": {
+    "default_language": "vi",
+    "available_languages": ["vi", "en"]
+  }
+}
