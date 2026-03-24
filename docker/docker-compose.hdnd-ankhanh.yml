@@ -94,11 +94,11 @@ services:
     restart: unless-stopped
     command: ["mongod", "--replSet", "rs0", "--bind_ip_all", "--noauth"]
     healthcheck:
-      test: mongosh --eval "db.adminCommand('ping')" --quiet
+      test: echo 'db.runCommand({ping:1}).ok' | mongosh --quiet
       interval: 10s
-      timeout: 5s
-      retries: 5
-      start_period: 40s
+      timeout: 10s
+      retries: 10
+      start_period: 60s
     volumes:
       - hdnd_ankhanh_mongo_data:/data/db
     networks:
