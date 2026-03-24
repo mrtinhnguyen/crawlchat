@@ -281,10 +281,7 @@ export default function LoginPage() {
               Login with Google
             </a>
 
-            <p className="text-center text-base-content/50 text-xs">
-              You will be asked to start the free trial once logged in if you
-              haven't already.
-            </p>
+            
           </div>
         </fetcher.Form>
       </div>

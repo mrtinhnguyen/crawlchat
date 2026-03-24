@@ -31,12 +31,12 @@ export const PLAN_FREE: Plan = {
   price: 0,
   type: "ONE_TIME",
   credits: {
-    messages: 20,
+    messages: 100,
   },
   limits: {
     scrapes: 1,
     teamMembers: 1,
-    pages: 40,
+    pages: 1000,
   },
   resetType: "one-time",
   category: "BASE",
@@ -45,15 +45,15 @@ export const PLAN_FREE: Plan = {
 export const PLAN_HOBBY: Plan = {
   id: "hobby",
   name: "Hobby",
-  price: 21,
+  price: 10,
   type: "SUBSCRIPTION",
   credits: {
-    messages: 800,
+    messages: 2000,
   },
   limits: {
     scrapes: 1,
     teamMembers: 1,
-    pages: 2000,
+    pages: 5000,
   },
   resetType: "monthly",
   category: "BASE",
@@ -62,15 +62,15 @@ export const PLAN_HOBBY: Plan = {
 export const PLAN_STARTER: Plan = {
   id: "starter",
   name: "Starter",
-  price: 45,
+  price: 25,
   type: "SUBSCRIPTION",
   credits: {
-    messages: 2000,
+    messages: 5000,
   },
   limits: {
     scrapes: 2,
     teamMembers: 2,
-    pages: 5000,
+    pages: 10000,
   },
   resetType: "monthly",
   category: "BASE",
@@ -82,12 +82,12 @@ export const PLAN_PRO: Plan = {
   price: 99,
   type: "SUBSCRIPTION",
   credits: {
-    messages: 7000,
+    messages: 10000,
   },
   limits: {
     scrapes: 3,
     teamMembers: 5,
-    pages: 14000,
+    pages: 20000,
   },
   resetType: "monthly",
   category: "BASE",
@@ -99,7 +99,7 @@ export const PLAN_STARTER_YEARLY: Plan = {
   price: 450,
   type: "SUBSCRIPTION",
   credits: {
-    messages: 2000 * 12,
+    messages: 5000 * 12,
   },
   limits: {
     scrapes: 2,
@@ -116,12 +116,12 @@ export const PLAN_PRO_YEARLY: Plan = {
   price: 990,
   type: "SUBSCRIPTION",
   credits: {
-    messages: 7000 * 12,
+    messages: 10000 * 12,
   },
   limits: {
     scrapes: 3,
     teamMembers: 5,
-    pages: 14000,
+    pages: 20000,
   },
   resetType: "yearly",
   category: "BASE",
@@ -133,12 +133,12 @@ export const PLAN_HOBBY_YEARLY: Plan = {
   price: 210,
   type: "SUBSCRIPTION",
   credits: {
-    messages: 800 * 12,
+    messages: 2000 * 12,
   },
   limits: {
     scrapes: 1,
     teamMembers: 1,
-    pages: 2000,
+    pages: 5000,
   },
   resetType: "yearly",
   category: "BASE",
@@ -150,12 +150,12 @@ export const PLAN_LAUNCH: Plan = {
   price: 29,
   type: "SUBSCRIPTION",
   credits: {
-    messages: 800,
+    messages: 1000,
   },
   limits: {
     scrapes: 1,
     teamMembers: 1,
-    pages: 2000,
+    pages: 5000,
   },
   resetType: "monthly",
   category: "BASE",
@@ -168,12 +168,12 @@ export const PLAN_LAUNCH_YEARLY: Plan = {
   price: 290,
   type: "SUBSCRIPTION",
   credits: {
-    messages: 800 * 12,
+    messages: 1000 * 12,
   },
   limits: {
     scrapes: 1,
     teamMembers: 1,
-    pages: 2000,
+    pages: 5000,
   },
   resetType: "yearly",
   category: "BASE",
@@ -186,12 +186,12 @@ export const PLAN_GROW: Plan = {
   price: 69,
   type: "SUBSCRIPTION",
   credits: {
-    messages: 2000,
+    messages: 5000,
   },
   limits: {
     scrapes: 2,
     teamMembers: 2,
-    pages: 5000,
+    pages: 10000,
   },
   resetType: "monthly",
   category: "BASE",
@@ -205,12 +205,12 @@ export const PLAN_GROW_YEARLY: Plan = {
   price: 690,
   type: "SUBSCRIPTION",
   credits: {
-    messages: 2000 * 12,
+    messages: 5000 * 12,
   },
   limits: {
     scrapes: 2,
     teamMembers: 2,
-    pages: 5000,
+    pages: 10000,
   },
   resetType: "yearly",
   category: "BASE",
@@ -224,12 +224,12 @@ export const PLAN_ACCELERATE: Plan = {
   price: 229,
   type: "SUBSCRIPTION",
   credits: {
-    messages: 7000,
+    messages: 10000,
   },
   limits: {
     scrapes: 3,
     teamMembers: 5,
-    pages: 14000,
+    pages: 20000,
   },
   resetType: "monthly",
   category: "BASE",
@@ -242,12 +242,12 @@ export const PLAN_ACCELERATE_YEARLY: Plan = {
   price: 2290,
   type: "SUBSCRIPTION",
   credits: {
-    messages: 7000 * 12,
+    messages: 10000 * 12,
   },
   limits: {
     scrapes: 3,
     teamMembers: 5,
-    pages: 14000,
+    pages: 20000,
   },
   resetType: "yearly",
   category: "BASE",
