@@ -926,11 +926,11 @@ function PoweredBy() {
           "opacity-40 flex items-center gap-1",
           "hover:opacity-100 transition-all"
         )}
-        href={`https://crawlchat.app?ref=powered-by-${titleSlug}`}
+        href={`https://tonyx.dev?ref=powered-by-${titleSlug}`}
         target="_blank"
       >
         <RiChatVoiceAiFill />
-        CrawlChat
+        TonyX
       </a>
     </div>
   );

@@ -1,0 +1,16 @@
+[Unit]
+Description=CrawlChat HDND An Khanh Service
+Requires=docker.service
+After=docker.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+WorkingDirectory=/opt/crawlchat
+User=root
+ExecStart=/usr/bin/docker compose -f docker/docker-compose.hdnd-ankhanh.yml up -d
+ExecStop=/usr/bin/docker compose -f docker/docker-compose.hdnd-ankhanh.yml down
+TimeoutStartSec=0
+
+[Install]
+WantedBy=multi-user.target
